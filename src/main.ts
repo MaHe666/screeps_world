@@ -1,6 +1,3 @@
-import {sayHello} from "./modules/utils";
-import {errorMapper} from "./modules/errorMapper";
-
-export const loop = errorMapper(() => {
-    sayHello()
-})
+export const loop = () => {
+    console.log("mahe666")
+}
