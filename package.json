@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx rollup -c",
+    "mahe666": "npx rollup -c --environment DEST:mahe666",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

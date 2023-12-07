@@ -19,19 +19,8 @@ export default {
     plugins: [
         typescript(), // 使用 TypeScript 插件编译代码
         screeps({
-            // config对象模板
-            /*
-            {
-                token: "",
-                protocol: "https",
-                hostname: "screeps.com",
-                port: 443,
-                path: "/",
-                branch: "default"
-            },
-            */
             config: config,
-            dryRun: false
+            dryRun: !config
         }
         )
     ],
