@@ -1,3 +1,5 @@
+import System from "./system";
+
 export const loop = () => {
-    console.log("mahe666")
+    System.run();
 }
